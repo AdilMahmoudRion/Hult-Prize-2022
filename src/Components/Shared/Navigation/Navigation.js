@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const navigation = [
-  { name: "Home", href: "home", current: true },
-  { name: "Foods", href: "food", current: false },
-  { name: "Fish", href: "fish", current: false },
-  { name: "Vegetable", href: "vegetable", current: false },
-  { name: "Contact", href: "contact", current: false },
+  { name: "Home", href: "/home#home", current: true },
+  { name: "Fruits", href: "/home#food", current: false },
+  { name: "Fish", href: "/home#fish", current: false },
+  { name: "Vegetable", href: "/home#vegetable", current: false },
+  { name: "Contact", href: "/home#contact", current: false },
 ];
 
 function classNames(...classes) {
@@ -36,7 +36,9 @@ const Navigation = () => {
                 </div>
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
-                    <h1 className="text-black text-2xl font-bold">TaTka</h1>
+                    <h1 className="text-black text-2xl font-bold">
+                      TatKa Food
+                    </h1>
                   </div>
                   <div className="hidden sm:block sm:ml-6">
                     <div className="flex space-x-4">
@@ -44,7 +46,7 @@ const Navigation = () => {
                         <HashLink
                           key={item.name}
                           // as={HashLink}
-                          to={`home#${item.href}`}
+                          to={`${item.href}`}
                           scroll={(el) =>
                             el.scrollIntoView({
                               behavior: "smooth",
@@ -68,7 +70,7 @@ const Navigation = () => {
                   <HashLink
                     key={item.name}
                     // as={HashLink}
-                    to={`home#${item.href}`}
+                    to={`${item.href}`}
                     scroll={(el) =>
                       el.scrollIntoView({
                         behavior: "smooth",

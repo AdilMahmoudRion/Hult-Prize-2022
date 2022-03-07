@@ -13,7 +13,7 @@ const Footer = () => {
                 alt="FlowBite Logo"
               />
               <span class="self-center text-2xl font-semibold whitespace-nowrap text-black">
-                Flowbite
+                TatKa Food
               </span>
             </a>
           </div>
@@ -25,12 +25,12 @@ const Footer = () => {
               <ul class="text-black">
                 <li class="mb-4">
                   <a href="https://flowbite.com" class="hover:underline">
-                    Flowbite
+                    Fruits
                   </a>
                 </li>
                 <li>
                   <a href="https://tailwindcss.com/" class="hover:underline">
-                    Tailwind CSS
+                    Fish
                   </a>
                 </li>
               </ul>
@@ -43,7 +43,7 @@ const Footer = () => {
                     href="https://github.com/themesberg/flowbite"
                     class="hover:underline "
                   >
-                    Github
+                    Facebook
                   </a>
                 </li>
                 <li>
@@ -51,7 +51,7 @@ const Footer = () => {
                     href="https://discord.gg/4eeurUVvTy"
                     class="hover:underline"
                   >
-                    Discord
+                    Instagram
                   </a>
                 </li>
               </ul>
@@ -80,7 +80,7 @@ const Footer = () => {
           <span class="text-sm  sm:text-center text-black">
             © 2022{" "}
             <a href="https://flowbite.com" class="hover:underline">
-              Flowbite™
+              Tatka Food™
             </a>
             . All Rights Reserved.
           </span>

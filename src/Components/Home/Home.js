@@ -15,8 +15,8 @@ const Home = () => {
       <Banner></Banner>
       <Product></Product>
       <Fish></Fish>
-      <Foods></Foods>
-      <Vegetable></Vegetable>
+      {/* <Foods></Foods>
+        <Vegetable></Vegetable> */}
       <Contact></Contact>
       <Footer></Footer>
     </>

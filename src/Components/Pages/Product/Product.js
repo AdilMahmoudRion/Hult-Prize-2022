@@ -1,6 +1,10 @@
 import React from "react";
 import "./Product.css";
 import fish from "../../Images/fish.png";
+import veg from "../../Images/veg.png";
+import fruit from "../../Images/banana.png";
+import meat from "../../Images/meat.png";
+import tree from "../../Images/tree.png";
 import { Link } from "react-router-dom";
 
 const Product = () => {
@@ -121,47 +125,47 @@ const Product = () => {
         <h1 className="text-center text-3xl font-bold uppercase pb-5">
           Our Product Categories
         </h1>
-        <div className="grid grid-cols-3 items-cente gap-3">
+        <div className="grid grid-cols-3 items-center gap-3">
           <Link
             to="#"
-            className="col-span-1 categoryBox grid grid-cols-12 items-cente"
+            className="col-span-1 categoryBox grid grid-cols-12 items-center"
           >
-            <h1 className="col-span-10">Meat And Fish</h1>
+            <h1 className="col-span-10">Fish</h1>
             <img className="c-img col-span-2" src={fish} alt="" srcset="" />
           </Link>
           <Link
             to="#"
-            className="col-span-1 categoryBox grid grid-cols-12 items-cente"
+            className="col-span-1 categoryBox grid grid-cols-12 items-center"
           >
-            <h1 className="col-span-10">Meat And Fish</h1>
-            <img className="c-img col-span-2" src={fish} alt="" srcset="" />
+            <h1 className="col-span-10">Fruits</h1>
+            <img className="c-img col-span-2" src={fruit} alt="" srcset="" />
           </Link>
           <Link
             to="#"
-            className="col-span-1 categoryBox grid grid-cols-12 items-cente"
+            className="col-span-1 categoryBox grid grid-cols-12 items-center"
           >
-            <h1 className="col-span-10">Meat And Fish</h1>
-            <img className="c-img col-span-2" src={fish} alt="" srcset="" />
+            <h1 className="col-span-10">Vegetable</h1>
+            <img className="c-img col-span-2" src={veg} alt="" srcset="" />
           </Link>
           <Link
             to="#"
-            className="col-span-1 categoryBox grid grid-cols-12 items-cente"
+            className="col-span-1 categoryBox grid grid-cols-12 items-center"
           >
-            <h1 className="col-span-10">Meat And Fish</h1>
-            <img className="c-img col-span-2" src={fish} alt="" srcset="" />
+            <h1 className="col-span-10">Meat</h1>
+            <img className="c-img col-span-2" src={meat} alt="" srcset="" />
           </Link>
           <Link
             to="#"
-            className="col-span-1 categoryBox grid grid-cols-12 items-cente"
+            className="col-span-1 categoryBox grid grid-cols-12 items-center"
           >
-            <h1 className="col-span-10">Meat And Fish</h1>
-            <img className="c-img col-span-2" src={fish} alt="" srcset="" />
+            <h1 className="col-span-10">Banana Tres</h1>
+            <img className="c-img col-span-2" src={tree} alt="" srcset="" />
           </Link>
           <Link
             to="#"
-            className="col-span-1 categoryBox grid grid-cols-12 items-cente"
+            className="col-span-1 categoryBox grid grid-cols-12 items-center"
           >
-            <h1 className="col-span-10">Meat And Fish</h1>
+            <h1 className="col-span-10">Fish Minnow</h1>
             <img className="c-img col-span-2" src={fish} alt="" srcset="" />
           </Link>
         </div>
