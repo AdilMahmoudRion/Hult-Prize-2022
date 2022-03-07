@@ -6,7 +6,9 @@ const Fish = () => {
   return (
     <section id="fish">
       <div className="mx-auto sm:px-6 lg:px-36 sm:p-6 ">
-        <h1 className="text-center text-2xl pb-5">Our Fish Categories</h1>
+        <h1 className="text-center text-3xl font-bold uppercase pb-5">
+          Our Fish Categories
+        </h1>
         <div className="grid grid-cols-4">
           <div class="col-span-1 text-center">
             <Link to="#">

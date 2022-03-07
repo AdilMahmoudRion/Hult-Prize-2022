@@ -15,3 +15,7 @@
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+.elementor-icon-box-description {
+  color: gray;
+  padding-top: 8px;
+}
