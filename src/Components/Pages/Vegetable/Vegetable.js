@@ -1,12 +1,12 @@
 import React from "react";
+import cabbage from "../../Images/cabbage.png";
 import cap from "../../Images/capsicum.png";
 import car from "../../Images/carrot.png";
-import ladiesFinger from "../../Images/ladisFinger.png";
-import tomato from "../../Images/tomatto.png";
 import greenChilli from "../../Images/greenChilli.png";
-import cabbage from "../../Images/cabbage.png";
-import pumpkin from "../../Images/pumpkin.png";
+import ladiesFinger from "../../Images/ladisFinger.png";
 import lemon from "../../Images/lemon.png";
+import pumpkin from "../../Images/pumpkin.png";
+import tomato from "../../Images/tomatto.png";
 
 const vegetable = [
   { name: "Capsicum 500gm", price: "$19", img: `${cap}` },
@@ -23,14 +23,14 @@ const Vegetable = () => {
   return (
     <div id="vegetable" className="min-h-screen">
       <div className=" lg:px-36 sm:px-4 py-10">
-        <div className="bg-[#d7f7d5] mb-10 rounded-lg">
+        <div className="bg-[#ecffea] mb-10 rounded-lg">
           <h1 className="font-bold py-5 px-2 text-3xl text-gray-900">
             VEGETABLE
           </h1>
         </div>
         <div className="grid grid-cols-4 gap-10">
           {vegetable.map((vegetable) => (
-            <div class="flex flex-col justify-between col-span-1 max-w-sm bg-[#d7f7d5] rounded-lg shadow-md">
+            <div class="flex flex-col justify-between col-span-1 max-w-sm bg-[#ecffea] rounded-lg shadow-md">
               <a href="#">
                 <img
                   class="p-8 rounded-t-lg "

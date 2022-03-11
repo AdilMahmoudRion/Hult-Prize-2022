@@ -1,12 +1,12 @@
 import React from "react";
-import avocado from "../../Images/Fruits/avocado.png";
 import banana from "../../Images/banana.png";
+import avocado from "../../Images/Fruits/avocado.png";
+import coconut from "../../Images/Fruits/coconut.png";
 import guava from "../../Images/Fruits/guava.png";
 import orange from "../../Images/Fruits/orange.png";
 import papaya from "../../Images/Fruits/papaya.png";
-import strawberry from "../../Images/Fruits/strawberry.png";
-import coconut from "../../Images/Fruits/coconut.png";
 import pineapple from "../../Images/Fruits/pineapple.png";
+import strawberry from "../../Images/Fruits/strawberry.png";
 
 const vegetable = [
   { name: "strawberry 500gm", price: "$19", img: `${strawberry}` },
@@ -23,12 +23,12 @@ const Foods = () => {
   return (
     <div id="vegetable" className="min-h-screen">
       <div className=" lg:px-36 sm:px-4 py-10">
-        <div className="bg-[#d7f7d5] mb-10 rounded-lg">
+        <div className="bg-[#ecffea] mb-10 rounded-lg">
           <h1 className="font-bold py-5 px-2 text-3xl text-gray-900">Fruits</h1>
         </div>
         <div className="grid grid-cols-4 gap-10">
           {vegetable.map((vegetable) => (
-            <div class="flex flex-col justify-between col-span-1 max-w-sm bg-[#d7f7d5] rounded-lg shadow-md">
+            <div class="flex flex-col justify-between col-span-1 max-w-sm bg-[#ecffea] rounded-lg shadow-md">
               <a href="#">
                 <img
                   class="p-8 rounded-t-lg "

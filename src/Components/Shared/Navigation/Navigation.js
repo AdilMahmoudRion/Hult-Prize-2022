@@ -132,7 +132,7 @@ const Navigation = () => {
           </div>
         </div>
       </nav>
-      <nav class="bg-[#d7f7d5] lg:px-36 sm:px-4 py-2">
+      <nav class="bg-[#ecffea] lg:px-36 sm:px-4 py-2">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
           <div class="flex md:order-2">
             <div class="flex items-center gap-2 text-gray-800 font-medium ">

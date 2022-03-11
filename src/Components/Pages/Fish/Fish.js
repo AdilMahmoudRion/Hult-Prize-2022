@@ -6,7 +6,7 @@ const Fish = () => {
   return (
     <section id="fish" className="">
       <div className="mx-auto sm:px-6 lg:px-36 sm:p-6 ">
-        <div className="bg-[#d7f7d5] mb-10 rounded-lg mx-2">
+        <div className="bg-[#ecffea] mb-10 rounded-lg mx-2">
           <h1 className="font-bold py-5 px-2 text-3xl text-gray-900">
             Fish Category
           </h1>
