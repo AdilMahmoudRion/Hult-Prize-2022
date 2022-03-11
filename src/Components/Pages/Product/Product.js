@@ -23,12 +23,12 @@ const Product = () => {
           alt="images"
         />
       </div>
-      <div className="grid grid-cols-4 mt-10  divide-x divide-[#FFCC33]">
+      <div className="grid grid-cols-4 mt-10  divide-x divide-[#119744]">
         <div class="col-span-1 p-4 elementor-icon-box-wrapper">
           <div class="elementor-icon-box-icon ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 text-[#FFCC33] mx-auto"
+              className="h-16 w-16 text-[#119744] mx-auto"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -52,7 +52,7 @@ const Product = () => {
           <div class="elementor-icon-box-icon ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 text-[#FFCC33] mx-auto"
+              className="h-16 w-16 text-[#119744] mx-auto"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -74,7 +74,7 @@ const Product = () => {
           <div class="elementor-icon-box-icon ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 text-[#FFCC33] mx-auto"
+              className="h-16 w-16 text-[#119744] mx-auto"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -99,7 +99,7 @@ const Product = () => {
           <div class="elementor-icon-box-icon ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 text-[#FFCC33] mx-auto"
+              className="h-16 w-16 text-[#119744] mx-auto"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
