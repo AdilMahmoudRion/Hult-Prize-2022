@@ -121,48 +121,50 @@ const Product = () => {
         </div>
       </div>
 
-      <div className="my-20">
-        <h1 className="text-center text-3xl font-bold uppercase pb-5">
-          Our Product Categories
-        </h1>
+      <div className="my-12">
+        <div className="rounded-lg">
+          <h1 className="font-bold py-10 px-2 text-4xl text-center text-gray-900">
+            Product Category
+          </h1>
+        </div>
         <div className="grid grid-cols-3 items-center gap-3">
           <Link
-            to="#"
+            to="/fish"
             className="col-span-1 categoryBox grid grid-cols-12 items-center text-md font-semibold bg-[#d7f7d5]"
           >
             <h1 className="col-span-10">Fish</h1>
             <img className="c-img col-span-2" src={fish} alt="" srcset="" />
           </Link>
           <Link
-            to="#"
+            to="/food"
             className="col-span-1 text-md font-semibold bg-[#d7f7d5] categoryBox grid grid-cols-12 items-center"
           >
             <h1 className="col-span-10">Fruits</h1>
             <img className="c-img col-span-2" src={fruit} alt="" srcset="" />
           </Link>
           <Link
-            to="#"
+            to="/vegetable"
             className="col-span-1 text-md font-semibold bg-[#d7f7d5] categoryBox grid grid-cols-12 items-center"
           >
             <h1 className="col-span-10">Vegetable</h1>
             <img className="c-img col-span-2" src={veg} alt="" srcset="" />
           </Link>
           <Link
-            to="#"
+            to="/fish"
             className="col-span-1 text-md font-semibold bg-[#d7f7d5] categoryBox grid grid-cols-12 items-center"
           >
             <h1 className="col-span-10">Meat</h1>
             <img className="c-img col-span-2" src={meat} alt="" srcset="" />
           </Link>
           <Link
-            to="#"
+            to="/food"
             className="col-span-1 text-md font-semibold bg-[#d7f7d5] categoryBox grid grid-cols-12 items-center"
           >
             <h1 className="col-span-10">Banana Tres</h1>
             <img className="c-img col-span-2" src={tree} alt="" srcset="" />
           </Link>
           <Link
-            to="#"
+            to="/fish"
             className="col-span-1 text-md font-semibold bg-[#d7f7d5] categoryBox grid grid-cols-12 items-center"
           >
             <h1 className="col-span-10">Fish Minnow</h1>
