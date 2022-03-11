@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Navigation.css";
 
 const Navigation = () => {
@@ -7,11 +8,11 @@ const Navigation = () => {
     <div className="">
       <nav class="bg-[#019345]  lg:px-36 sm:px-4 py-5">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="#" class="flex items-center">
+          <Link to="home" class="flex items-center">
             <span class="self-center text-xl font-bold  text-white uppercase">
               TatKa Food
             </span>
-          </a>
+          </Link>
           <div class="flex md:order-1">
             <div class="hidden relative mr-3 md:mr-0 md:block">
               <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
@@ -131,7 +132,7 @@ const Navigation = () => {
           </div>
         </div>
       </nav>
-      <nav class="bg-[#f5f5f569] lg:px-36 sm:px-4 py-2">
+      <nav class="bg-[#d7f7d5] lg:px-36 sm:px-4 py-2">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
           <div class="flex md:order-2">
             <div class="flex items-center gap-2 text-gray-800 font-medium ">
@@ -219,7 +220,7 @@ const Navigation = () => {
             <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  md:font-medium ">
               <li>
                 <Link
-                  to="#"
+                  to="food"
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
                   class="block py-2 pr-4 pl-3 text-gray-900 text-md flex items-center md:p-0"
@@ -241,7 +242,7 @@ const Navigation = () => {
               </li>
               <li>
                 <Link
-                  to="#"
+                  to="vegetable"
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
                   class="block py-2 pr-4 pl-3 text-gray-900 text-md flex items-center md:p-0"
@@ -263,7 +264,7 @@ const Navigation = () => {
               </li>
               <li>
                 <Link
-                  to="#"
+                  to="fish"
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
                   class="block py-2 pr-4 pl-3 text-gray-900 text-md flex items-center md:p-0"
@@ -304,6 +305,19 @@ const Navigation = () => {
                     ></path>
                   </svg>
                 </Link>
+              </li>
+              <li>
+                <HashLink
+                  to="contact"
+                  scroll={(el) =>
+                    el.scrollIntoView({ behavior: "smooth", block: "start" })
+                  }
+                  id="dropdownNavbarLink"
+                  data-dropdown-toggle="dropdownNavbar"
+                  class="block py-2 pr-4 pl-3 text-gray-900 text-md flex items-center md:p-0"
+                >
+                  Contact{" "}
+                </HashLink>
               </li>
             </ul>
           </div>

@@ -4,10 +4,10 @@ import "./Fish.css";
 
 const Fish = () => {
   return (
-    <section id="fish">
+    <section id="fish" className="">
       <div className="mx-auto sm:px-6 lg:px-36 sm:p-6 ">
         <h1 className="text-center text-3xl font-bold uppercase pb-5">
-          Our Fish Categories
+          Fish Categories
         </h1>
         <div className="grid grid-cols-4">
           <div class="col-span-1 text-center">

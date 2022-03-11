@@ -11,14 +11,12 @@ import Navigation from "../Shared/Navigation/Navigation";
 const Home = () => {
   return (
     <>
-      <Navigation></Navigation>
       <Banner></Banner>
       <Product></Product>
       <Fish></Fish>
       {/* <Foods></Foods>
         <Vegetable></Vegetable> */}
       <Contact></Contact>
-      <Footer></Footer>
     </>
   );
 };

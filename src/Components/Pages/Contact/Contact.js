@@ -2,17 +2,17 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact">
-      <div className=" mx-auto sm:px-6 lg:px-36 sm:p-6">
-        <h1 className="text-start text-2xl font-bold uppercase">Contact Us</h1>
+    <section id="contact" className="">
+      <div className=" mx-auto lg:mx-56 p-5 mt-10 border-2 border-gray-200">
+        <h1 className="text-start text-5xl font-bold uppercase">Contact Us</h1>
         <div className="grid gap-10  grid-cols-2">
-          <div className="col-span-1">
+          <div className="col-span-1 pr-10">
             <div className=" mx-auto">
               <p className="mt-6 mb-5 mr-10">
                 Event definition is - somthing that happens occurre How evesnt
                 sentence. Synonym when an unknown printer took a galley. Lorem
                 ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-                corporis?
+                corporis? lorem10
               </p>
               <h4 className="text-xl font-bold mb-2">
                 OFFICE IN <strong className="text-[#119744]">DHAKA</strong>
@@ -93,7 +93,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="text-white bg-[#119744]  focus:ring-4 focus:ring-[#119744] font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center  "
+                className="text-white bg-[#119744]  focus:ring-4 focus:ring-[#119744] font-medium text-md w-full sm:w-auto px-14 py-2.5 text-center  "
               >
                 Send
               </button>
