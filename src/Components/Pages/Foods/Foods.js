@@ -1,22 +1,22 @@
 import React from "react";
-import cap from "../../Images/capsicum.png";
-import car from "../../Images/carrot.png";
-import ladiesFinger from "../../Images/ladisFinger.png";
-import tomato from "../../Images/tomatto.png";
-import greenChilli from "../../Images/greenChilli.png";
-import cabbage from "../../Images/cabbage.png";
-import pumpkin from "../../Images/pumpkin.png";
-import lemon from "../../Images/lemon.png";
+import avocado from "../../Images/Fruits/avocado.png";
+import banana from "../../Images/banana.png";
+import guava from "../../Images/Fruits/guava.png";
+import orange from "../../Images/Fruits/orange.png";
+import papaya from "../../Images/Fruits/papaya.png";
+import strawberry from "../../Images/Fruits/strawberry.png";
+import coconut from "../../Images/Fruits/coconut.png";
+import pineapple from "../../Images/Fruits/pineapple.png";
 
 const vegetable = [
-  { name: "Capsicum 500gm", price: "$19", img: `${cap}` },
-  { name: "Carrot 500gm", price: "$15", img: `${car}` },
-  { name: "Ladies Finger 500gm", price: "$10", img: `${ladiesFinger}` },
-  { name: "Tomato 500gm", price: "$13", img: `${tomato}` },
-  { name: "Green Chilli 500gm", price: "$9", img: `${greenChilli}` },
-  { name: "Cabbage 500gm", price: "$12", img: `${cabbage}` },
-  { name: "Lemon 12p", price: "$12", img: `${lemon}` },
-  { name: "Pumpkin 500gm", price: "$12", img: `${pumpkin}` },
+  { name: "strawberry 500gm", price: "$19", img: `${strawberry}` },
+  { name: "papaya 500gm", price: "$15", img: `${papaya}` },
+  { name: "orange Finger 500gm", price: "$10", img: `${orange}` },
+  { name: "avocado 500gm", price: "$13", img: `${avocado}` },
+  { name: "banana Chilli 500gm", price: "$9", img: `${banana}` },
+  { name: "guava 500gm", price: "$12", img: `${guava}` },
+  { name: "pineapple 12p", price: "$12", img: `${pineapple}` },
+  { name: "coconut 500gm", price: "$12", img: `${coconut}` },
 ];
 
 const Foods = () => {
@@ -34,11 +34,12 @@ const Foods = () => {
                   class="p-8 rounded-t-lg "
                   src={vegetable.img}
                   alt="product image"
+                  width="100%"
                 />
               </a>
               <div class="px-5 pb-5">
                 <a href="#">
-                  <h5 class="text-xl font-semibold tracking-tight text-gray-900 ">
+                  <h5 class="text-xl font-semibold tracking-tight text-gray-900 capitalize">
                     {vegetable.name}
                   </h5>
                 </a>
