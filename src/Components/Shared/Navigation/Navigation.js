@@ -225,7 +225,7 @@ const Navigation = () => {
                   data-dropdown-toggle="dropdownNavbar"
                   class="block py-2 pr-4 pl-3 text-gray-900 text-md flex items-center md:p-0"
                 >
-                  Food{" "}
+                  Fruits{" "}
                   <svg
                     class="ml-1 w-4 h-4"
                     fill="currentColor"
