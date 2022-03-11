@@ -9,7 +9,7 @@ import "./Product.css";
 
 const Product = () => {
   return (
-    <section className="product mx-auto sm:px-6 lg:px-36 mt-28 sm:p-6 ">
+    <section className="product mx-auto sm:px-6 lg:px-36 mt-8 sm:p-6 ">
       <div className="grid product-b grid-cols-2 gap-5">
         <img
           className="col-span-1"

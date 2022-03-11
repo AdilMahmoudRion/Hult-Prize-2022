@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class=" mx-auto sm:px-6 lg:px-36 mt-28 bg-[#119744] sm:p-6 ">
+      <footer class=" mt-28 py-10 px-36 bg-[#119744] ">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="https://flowbite.com" class="flex items-center">
@@ -12,17 +12,17 @@ const Footer = () => {
                 class="mr-3 h-8"
                 alt="FlowBite Logo"
               />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap text-black">
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 TatKa Food
               </span>
             </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-black uppercase ">
+              <h2 class="mb-6 text-sm font-semibold text-white uppercase ">
                 Resources
               </h2>
-              <ul class="text-black">
+              <ul class="text-white">
                 <li class="mb-4">
                   <a href="https://flowbite.com" class="hover:underline">
                     Fruits
@@ -36,8 +36,8 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-black">Follow us</h2>
-              <ul class="text-black">
+              <h2 class="mb-6 text-sm font-semibold text-white">Follow us</h2>
+              <ul class="text-white">
                 <li class="mb-4">
                   <a
                     href="https://github.com/themesberg/flowbite"
@@ -57,10 +57,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold uppercase text-black">
+              <h2 class="mb-6 text-sm font-semibold uppercase text-white">
                 Legal
               </h2>
-              <ul class="text-black">
+              <ul class="text-white">
                 <li class="mb-4">
                   <a href="#" class="hover:underline">
                     Privacy Policy
@@ -75,9 +75,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr class="my-6 border-black sm:mx-auto lg:my-8" />
+        <hr class="my-6 border-white sm:mx-auto lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm  sm:text-center text-black">
+          <span class="text-sm  sm:text-center text-white">
             © 2022{" "}
             <a href="https://flowbite.com" class="hover:underline">
               Tatka Food™
@@ -85,7 +85,7 @@ const Footer = () => {
             . All Rights Reserved.
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a href="#" class="text-black hover:text-gray-900 ">
+            <a href="#" class="text-white hover:text-gray-900 ">
               <svg
                 class="w-5 h-5"
                 fill="currentColor"
@@ -101,7 +101,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              class="text-black hover:text-gray-900 dark:hover:text-white"
+              class="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"
@@ -116,7 +116,7 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#" class="text-black hover:text-gray-900 ">
+            <a href="#" class="text-white hover:text-gray-900 ">
               <svg
                 class="w-5 h-5"
                 fill="currentColor"
@@ -126,7 +126,7 @@ const Footer = () => {
                 <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
               </svg>
             </a>
-            <a href="#" class="text-black hover:text-gray-900">
+            <a href="#" class="text-white hover:text-gray-900">
               <svg
                 class="w-5 h-5"
                 fill="currentColor"
@@ -140,7 +140,7 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#" class="text-black hover:text-gray-900 ">
+            <a href="#" class="text-white hover:text-gray-900 ">
               <svg
                 class="w-5 h-5"
                 fill="currentColor"
