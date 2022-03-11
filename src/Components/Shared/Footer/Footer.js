@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class=" mx-auto sm:px-6 lg:px-36 mt-28 bg-[#78b144] sm:p-6 ">
+      <footer class=" mx-auto sm:px-6 lg:px-36 mt-28 bg-[#FFCC33] sm:p-6 ">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="https://flowbite.com" class="flex items-center">
